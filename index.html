@@ -11,48 +11,94 @@
   <style type="text/css" media="all">
       body {
           background-image: url(http://tool.liumingye.cn/bingimg/img.php);
-      }
+          background-repeat:repeat-x;          /*这里是每天自动更改一次的背景图片*/
+          }
       h1 {text-align:center;
           color: rgb(255,0,255);
           font-size: 70px;
           word-spacing: 10px;
           text-transform: uppercase;
           border-style: dashed;
+          border-radius: 45%;
+          border-width: 5px;
+          border-color: aqua;
           font-weight: bolder;
       }
-      h2 {text-align:left;
-          color: rgb(255,0,255);
+      h2 {text-align:center;
+          background-color: rgb(0, 0, 0);
+          color: rgb(173, 253, 0);
           font-size: 30px;
-          text-decoration: line-through;
           font-weight: lighter;
+          font-weight: bold;
       }
       p {
           text-align: center;
           color: rgb(100,0,30);
           line-height: 150%;
           font-size: 30px;
-          border-style: outset;
           font-weight: bold;
       }
-      p.ex {
-          color: rgb(0,0,0);
-          font-size: 20px;
+      .ex{
+        text-align: center;
+        color: rgb(0, 0, 0);
+        line-height: 150%;
+        font-size:50px;
+        font-weight: bolder;
       }
+      .ex1{
+        text-align: center;
+        color: rgb(255, 0, 0);
+        line-height: 150%;
+        font-size:60px;
+        text-decoration-line: underline;
+        text-decoration-color: #77ff00;
+        font-weight: 350;
+      }
+    #overflowTest 
+    {
+        background: #4CAF50;
+        color: white;
+        padding: 15px;
+        width: 80%;
+        height: 100px;
+        overflow: scroll;
+        border: 1px solid #ccc;
+    }
   </style>
 </head>
 
 <body bgcolor="white">
   <em><h1>welcome to anderwilley</h1></em>
-  <h2>你好
-  欢迎光顾本测试站点
-  这是一个启示页
-  可用于引导进入主站点
-  </h2>
-  <p>
-      想知道网页分享在哪？<a href="https://skywindblock.github.io/AnderWilley">点击进入</a> :)
-  </p>
-  <a href="https://skywindblock.github.io/AnderWilley">
-    <input type="button" value="测试中，应该能用了吧" />
-  </a>
+  <div id="overflowTest">
+        <h2>
+            你好
+        </h2>
+        <h2>
+            这是一个起始站点
+        </h2>
+        <h2>
+             目的是为了便于用户访问主站点
+        </h2>
+        <h2>
+            并根据需求进行分类查看
+        </h2>
+        <h2>
+            感谢你的支持
+        </h2>
+    </div>
+    <p class="ex">
+        警告！此站点
+    <p>
+    <p class="ex1">
+        万州清泉中学高2022级2班
+    <p>    
+    <p class="ex">
+        开放
+    <p>
+    <p>    
+        <a href="https://skywindblock.github.io/AnderWilley">
+            <input type="button" value="点击按钮进入下一页面" />
+        </a>
+    </p>
 </body>
 </html>
